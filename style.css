@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#display{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5em;
+}
+div{
+    width: 25%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: left;
+    border-right: none;
+    border-top: none;
+}
+input[type=button] {
+    background-color: white;
+    border: 1px solid white;
+    color:black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+    transition: all 0.2s linear;
+}
+input[type=button]:hover{
+    background-color:rgb(234, 234, 234);
+}
+::-webkit-input-placeholder{
+    color: white;
+}
